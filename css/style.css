@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    font-family: 'Roboto',sans-serif;
+}
+header{
+    background-color: rgb(26, 50, 73);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.topheader{
+    color:rgb(26, 50, 73);
+    border: 2px solid rgb(238, 141, 124);
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+    width: fit-content;
+}
+h6{
+    font-size: xx-small;
+}
+.container{
+    margin: 30px;
+    margin-bottom: 0;
+
+}
+.category{
+    color: rgb(26, 50, 73);
+    display: flex;
+    justify-content: space-between;
+}
+
+.category select,input,button{
+    border: 1.5px solid rgb(26, 50, 73);
+    height: 30px;
+}
+.category button{
+    color: white;
+    background-color:rgb(26, 50, 73);
+    padding: 2%;
+}
+.category input{
+    float: left;
+    padding: 7px;
+    width: 70%;
+}
+p{
+    font-size: x-small;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.heading{
+    margin: 22px 0px 0px 58px;
+}
+.Title{
+    width: 80%;
+    flex:content;
+}
+.content{
+    display: flex;
+    width: 75%;
+}
+.Title p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.Title button{
+    background-color: rgb(216, 108, 66);
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.content img{
+    height: 148px;
+    width: 160px;
+    margin-right: 10px;
+}
+
+.footertext{
+    background-color: rgb(26, 50, 73);
+    color: white;
+    text-align: center;
+    padding: 2px;
+    height: 30px;
+}
+
+hr{
+    border-top: solid 1px; 
+    margin: 20px 0;
+}
+.titlehr{
+    border-top: solid 1px; 
+    margin: 20px 0; 
+    width: 75%;
+}
+footer{
+    margin-top: 20px;
+}
+button{
+    padding: 5px;
+}
+
+@media (max-width: 1024px) 
+{
+    .content
+    {
+        display: block;
+    }
+}
+
+@media (max-width : 556px) {
+    .category
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .Title{
+        width: 100%;
+    }
+    .heading{
+        margin-left: 0%;
+        order: -1;
+    }
+    .category p{
+        margin: 4%;
+    }
+}
+    
