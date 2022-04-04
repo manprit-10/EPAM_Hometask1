@@ -1,4 +1,5 @@
-:root{
+:root
+{
     --colorPrimary : rgb(26, 50, 73);
 }
 *{
@@ -16,7 +17,7 @@ header{
 }
 .txt-header
 {
-    color:rgb(26, 50, 73);
+    color: var(--colorPrimary);
     border: 2px solid rgb(238, 141, 124);
     background-color: white;
     text-align: center;
@@ -33,7 +34,7 @@ h6
 }
 .category
 {
-    color: rgb(26, 50, 73);
+    color: var(--colorPrimary);
     display: flex;
     justify-content: space-between;
     margin: 2%;
@@ -60,11 +61,20 @@ h6
     padding: 7px;
     width: 70%;
 }
-
+.select-cat{
+    flex: 1;
+}
 .allnewsheading
 {
     flex: 1;
     margin-top: 2%;
+}
+.allnewsheading h2{
+    width: fit-content; 
+    margin: auto;
+}
+.subscribe{
+    float: right;
 }
 hr
 {
