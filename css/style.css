@@ -11,7 +11,8 @@ header{
     justify-content: center;
     padding: 20px;
 }
-.topheader{
+.topheader
+{
     color:rgb(26, 50, 73);
     border: 2px solid rgb(238, 141, 124);
     background-color: white;
@@ -19,7 +20,8 @@ header{
     padding: 8px;
     width: fit-content;
 }
-h6{
+h6
+{
     font-size: xx-small;
 }
 .container{
@@ -32,55 +34,75 @@ h6{
     display: flex;
     justify-content: space-between;
 }
-
-.category select,input,button{
-    border: 1.5px solid rgb(26, 50, 73);
-    height: 30px;
-}
-.category button{
-    color: white;
-    background-color:rgb(26, 50, 73);
-    padding: 2%;
-}
-.category input{
-    float: left;
-    padding: 7px;
-    width: 70%;
-}
-p{
+.category p{
     font-size: x-small;
     font-weight: bold;
     margin-bottom: 8px;
 }
+.category select,input,button
+{
+    border: 1.5px solid rgb(26, 50, 73);
+    height: 30px;
+}
+.category button
+{
+    color: white;
+    background-color:rgb(26, 50, 73);
+    padding: 2%;
+}
+.category input
+{
+    float: left;
+    padding: 7px;
+    width: 70%;
+}
 
-.heading{
+.allnewsheading
+{
     margin: 22px 0px 0px 58px;
 }
-.Title{
-    width: 80%;
-    flex:content;
+hr
+{
+    border-top: solid 1px; 
+    margin: 20px 0; 
 }
-.content{
+.content
+{
     display: flex;
     width: 75%;
 }
-.Title p{
+.content img
+{
+    height: 161px;
+    width: 160px;
+    margin-right: 10px;
+}
+.title
+{
+    width: 70%;
+    margin-left: 12px;
+}
+.title p
+{
     font-size: 12px;
     margin-top: 5px;
 }
-.Title button{
+.title button
+{
     background-color: rgb(216, 108, 66);
     color: white;
     border: none;
     padding: 5px;
+    margin-top: 3%;
 }
-.content img{
-    height: 148px;
-    width: 160px;
-    margin-right: 10px;
+.titlehr
+{
+    border-top: solid 1px; 
+    margin: 20px 0; 
+    width: 75%;
 }
-
-.footertext{
+.footertext
+{
     background-color: rgb(26, 50, 73);
     color: white;
     text-align: center;
@@ -88,22 +110,14 @@ p{
     height: 30px;
 }
 
-hr{
-    border-top: solid 1px; 
-    margin: 20px 0;
-}
-.titlehr{
-    border-top: solid 1px; 
-    margin: 20px 0; 
-    width: 75%;
-}
 footer{
     margin-top: 20px;
 }
-button{
+/*button
+{
     padding: 5px;
 }
-
+*/
 @media (max-width: 1024px) 
 {
     .content
