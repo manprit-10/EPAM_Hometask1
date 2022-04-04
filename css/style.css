@@ -1,3 +1,6 @@
+:root{
+    --colorPrimary : rgb(26, 50, 73);
+}
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -6,12 +9,12 @@
     font-family: 'Roboto',sans-serif;
 }
 header{
-    background-color: rgb(26, 50, 73);
+    background-color: var(--colorPrimary);
     display: flex;
     justify-content: center;
     padding: 20px;
 }
-.topheader
+.txt-header
 {
     color:rgb(26, 50, 73);
     border: 2px solid rgb(238, 141, 124);
@@ -24,15 +27,16 @@ h6
 {
     font-size: xx-small;
 }
-.container{
-    margin: 30px;
-    margin-bottom: 0;
-
+.container
+{
+    padding: 1%;
 }
-.category{
+.category
+{
     color: rgb(26, 50, 73);
     display: flex;
     justify-content: space-between;
+    margin: 2%;
 }
 .category p{
     font-size: x-small;
@@ -41,13 +45,13 @@ h6
 }
 .category select,input,button
 {
-    border: 1.5px solid rgb(26, 50, 73);
+    border: 1.5px solid var(--colorPrimary);
     height: 30px;
 }
 .category button
 {
     color: white;
-    background-color:rgb(26, 50, 73);
+    background-color: var(--colorPrimary);
     padding: 2%;
 }
 .category input
@@ -59,17 +63,18 @@ h6
 
 .allnewsheading
 {
-    margin: 22px 0px 0px 58px;
+    flex: 1;
+    margin-top: 2%;
 }
 hr
 {
     border-top: solid 1px; 
-    margin: 20px 0; 
 }
 .content
 {
     display: flex;
     width: 75%;
+    margin: 2%;
 }
 .content img
 {
@@ -79,7 +84,7 @@ hr
 }
 .title
 {
-    width: 70%;
+    width: 80%;
     margin-left: 12px;
 }
 .title p
@@ -98,26 +103,17 @@ hr
 .titlehr
 {
     border-top: solid 1px; 
-    margin: 20px 0; 
     width: 75%;
 }
-.footertext
+.txt-footer
 {
-    background-color: rgb(26, 50, 73);
+    background-color: var(--colorPrimary);
     color: white;
     text-align: center;
-    padding: 2px;
+    padding: 6px;
     height: 30px;
 }
 
-footer{
-    margin-top: 20px;
-}
-/*button
-{
-    padding: 5px;
-}
-*/
 @media (max-width: 1024px) 
 {
     .content
