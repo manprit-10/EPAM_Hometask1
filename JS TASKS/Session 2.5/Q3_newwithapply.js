@@ -1,10 +1,6 @@
-function Greeting(name) {
-    this.name = name;
-  }
-  Greeting.prototype.sayHello = function() {
-    return "Hello " + this.name;
-  };
-  Greeting.prototype.sayBye = function() {
-    return "Bye " + this.name;
-  };
-  var greeting = new Greeting('John');
+function construct(Class) 
+{
+  var object = Object.create(Class.prototype);
+  Class.apply(object, Array.prototype.slice.call(arguments, 1));  
+  return object;
+}
