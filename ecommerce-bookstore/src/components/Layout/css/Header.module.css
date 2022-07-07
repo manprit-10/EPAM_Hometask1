@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid grey;
+  background-color: #e9ecef;
+  font-size: 1.5rem;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}

@@ -1,0 +1,10 @@
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}

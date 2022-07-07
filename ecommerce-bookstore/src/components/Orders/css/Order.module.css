@@ -1,0 +1,29 @@
+.order {
+  border: 3px solid #e9e1e0a7;
+}
+.order header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9e1e0;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.details {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+.details img {
+  width: 90px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info p {
+  font-size: 1.5rem;
+}

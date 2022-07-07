@@ -1,0 +1,31 @@
+.cart {
+  margin: 1rem auto;
+  padding: 0 2rem;
+}
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.total {
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.5rem;
+}
+.empty {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}

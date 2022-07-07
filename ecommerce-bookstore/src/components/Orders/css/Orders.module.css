@@ -1,0 +1,19 @@
+.orders h2 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.lists {
+  padding: 2rem;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.message {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
