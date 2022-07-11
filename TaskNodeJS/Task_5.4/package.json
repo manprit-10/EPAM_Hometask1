@@ -1,0 +1,25 @@
+{
+  "name": "node.js-task2",
+  "version": "1.0.0",
+  "description": "Simple REST service with CRUD operations for user entity",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Paras Rawat",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.14.0",
+    "express": "^4.17.3",
+    "express-joi-validation": "^5.0.1",
+    "joi": "^17.6.0",
+    "node-localstorage": "^2.2.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.8",
+    "uuid": "^8.3.2"
+  }
+}
