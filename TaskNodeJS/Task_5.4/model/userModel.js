@@ -31,11 +31,7 @@ const User = sequelize.define('User', {
     }
 },{
     timestamps:false,
-    // instanceMethods:{
-    //     generateHash(password){
-    //         return bcrypt.hashSync(password,bcrypt.genSaltSync(8),null)
-    //     }
-    // }
+   
 });
 
 

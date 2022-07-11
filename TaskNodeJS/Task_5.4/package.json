@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon server.js"
   },
-  "author": "Paras Rawat",
+  "author": "Manprit Singh",
   "license": "ISC",
   "dependencies": {
     "babel": "^6.23.0",
