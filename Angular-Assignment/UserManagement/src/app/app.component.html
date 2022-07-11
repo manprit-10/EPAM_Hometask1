@@ -1,0 +1,29 @@
+<nav>
+  <ul>
+    <li>
+      <a
+        routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </li>
+    <li><a routerLink="/active" routerLinkActive="active">Active</a></li>
+    <li><a routerLink="/deleted" routerLinkActive="active">Deleted</a></li>
+    <li><a routerLink="/manage" routerLinkActive="active">Manage</a></li>
+  </ul>
+</nav>
+<hr />
+<div
+  class="jumbotron jumbotron-fluid bg"
+  *ngIf="!hasRoute('active') && !hasRoute('deleted') && !hasRoute('manage')"
+>
+  <div class="container">
+    <h1 class="display-4">{{ title }}</h1>
+    <p class="lead">
+      {{ message }}
+    </p>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

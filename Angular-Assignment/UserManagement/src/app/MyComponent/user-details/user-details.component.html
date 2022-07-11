@@ -1,0 +1,44 @@
+<div class="user-detail">
+  <div>
+    <ul *ngFor="let data of users">
+      <div
+        class="card"
+        [style.borderColor]="data.isDeleted ? 'red' : 'greenyellow'"
+      >
+        <div class="cards-data">
+          <div class="card-body">{{ data.firstName }} User</div>
+          <div class="bt-deactivate">
+            <!-- <button type="button" class="btn btn-primary" routerLink={{data.id}}>Details</button> -->
+            <!-- <li><a routerLink="manage">Details</a></li> -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="showDetails(data.id)"
+            >
+              Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </ul>
+  </div>
+
+  <div *ngFor="let data of users">
+    <div class="card-detail" *ngIf="data.id === showdata_id">
+      <div class="cards-data-detail">
+        <div class="card-body-detail">
+          <h3 style="font-weight: bolder">{{ data.firstName }} user</h3>
+          <br />
+          <span [style.color]="data.isDeleted ? 'red' : 'green'">
+            <p *ngIf="data.isDeleted == true">Deleted</p>
+            <p *ngIf="data.isDeleted == false">Active</p>
+          </span>
+          <p>Login Id &nbsp;&nbsp;&nbsp;{{ data.login }}</p>
+          <p>FirstName &nbsp;&nbsp;&nbsp;{{ data.firstName }}</p>
+          <p>lastName &nbsp;&nbsp;&nbsp;{{ data.lastName }}</p>
+          <p>Age &nbsp;&nbsp;&nbsp;{{ data.age }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+ul {
+  margin-right: 25px;
+  list-style: none;
+}
+.card {
+  border-radius: 3px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 1rem;
+}
+
+.active {
+  border: 1px solid lightgreen;
+}
+
+.deactive {
+  border: 1px solid red;
+}

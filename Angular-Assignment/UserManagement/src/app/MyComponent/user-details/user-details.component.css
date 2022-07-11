@@ -1,0 +1,22 @@
+.card {
+  border-color: greenyellow;
+  padding: 20px;
+  width: 100%;
+}
+.cards-data {
+  display: flex;
+  justify-content: space-between;
+}
+.user-detail {
+  display: flex;
+  justify-content: space-betweens;
+}
+span {
+  font-weight: bolder;
+}
+.card-detail {
+  border: 1px solid grey;
+  padding: 40px;
+  width: 100%;
+  margin-left: 100px;
+}
